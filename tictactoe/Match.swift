@@ -7,7 +7,12 @@
 //
 
 import UIKit
+import CoreData
 
-class Match: NSManagedObject {
+public class Match: NSManagedObject {
+    @NSManaged var date: Date?
+    
+    @NSManaged func addWinner(winner: Player)
+    @NSManaged func addPlayers(player: Player)
 
 }

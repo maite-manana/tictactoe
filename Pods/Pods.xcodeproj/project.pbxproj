@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1485AE1A4C011F4D5C3F1FF7D26FF223 /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3241EDEF073C873BD67419EF56D400FE /* TabView.xib */; };
+		14FF49A8C8E31C2FD9209D197A242435 /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD3BA3362B890200102B51572DA322E /* SwiftMessages.swift */; };
+		1C67618B212FBDA8BFC8C5E0C7958E25 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E942EFAEDBC43D8C77947614504E52 /* Theme.swift */; };
+		1DFD8DED7F886C2EEC7FFD1D7BAC8D52 /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E368F281A4CE53234DDDD65752F93 /* PassthroughWindow.swift */; };
+		2F22718C91889DE71572FCB4ED845ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3995BE43D081691574FBC93D78F17689 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B6DCC3BB04FB6F6217D4346F7B37F /* Error.swift */; };
+		42A4BD90D2E95439408F72B574CB73C9 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1DB39CCD79D4B3B5E7E797E94F1814 /* Presenter.swift */; };
+		4568C6CC7F78399CA1312B20E26EA8FE /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFDA29A5CF7824E7368186A16A99230 /* UIScrollView+EmptyDataSet.m */; };
+		463F7B0FC728DAF015D0FBE65A1C5318 /* NSBundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0F1727AEB356D403C8443F57EC9C7 /* NSBundle+Utils.swift */; };
+		49BAA43E3FAE1605F20BB34C8BDAE2D4 /* StatusLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45692090C77AE2235201E96B61E339F1 /* StatusLine.xib */; };
+		49D89DF8111FE28F464DD5E18C904C58 /* MarginAdjustable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EADF4842E5E1CBD16DCC8FD0B0173 /* MarginAdjustable.swift */; };
+		4C144355E41C99902528AAD3CF069680 /* DZNEmptyDataSet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 222E1D3E82E56C947BA9752143F91A40 /* DZNEmptyDataSet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C35CC7EAD8E4BA37484B154206FF73F /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019DADB7B8DE953C89ABF1886B18D8F /* Array+Utils.swift */; };
+		6760D9E8189E5D7A205E89341E0DAAB3 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1AA393F49C7745D04E1DD1F722F69E /* CardView.xib */; };
+		6D52B76ED9CDFB9D8DA98171CD5D399B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFCEFA474B720D6F5C71DC8A34A70D /* Images.xcassets */; };
+		6E65013C20A8396B5B4B48857860F488 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF926DA9AD1A605B199328719A221B7 /* BaseView.swift */; };
+		7360D134B549216E73E744C3787E2B8C /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142677AF1BF61E1610CFC957D3C56C9E /* Identifiable.swift */; };
+		75D0A461B8CF202F41C55CA1E732124C /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5AA620B58C8620BCFC72ADE8AFCB6 /* DZNEmptyDataSet-dummy.m */; };
+		7ADDD1AA0CBB03A2524A98A098A7AA6B /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D53FB07AF20A844DAF5A2DAF217B3C /* MessageView.swift */; };
+		80FB46C10C218E6EBAB080E16C1099DE /* SwiftMessages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAECA724C89967F934569B93D6CC561D /* SwiftMessages.bundle */; };
+		8511E9645F5C2B18746B4B4B29284451 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F60A0E8A9DD7D31551A68626B96E3E10 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E31EF89BD192C6AACDE9E0655861D3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		8EDDE25E2F937DD4A26DDD3D8042963A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9330F2C3E8E52D9116BC92C005BF9ED9 /* SwiftMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1B0A96F6F290DC8B1FAD70AB75AA1E /* SwiftMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99130CFFA41780900714300D7B535EB9 /* Pods-tictactoe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 354B6EAE361B294B6E0F13DDDFE51DF0 /* Pods-tictactoe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99913B56BC41C4F08C4468AEB2A433A5 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D60A7CAB1F251C2051720A23B20AF6 /* BackgroundViewable.swift */; };
+		AF6D0563076356604081680E826E3BED /* Pods-tictactoe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EF23DE510E43BC5D7715A69C8B1267 /* Pods-tictactoe-dummy.m */; };
+		BED8147944F6866BE35D36B09BD28AF6 /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E0C05B701CB78CE5F565D1E1559EA /* PassthroughView.swift */; };
+		BF64D9497707AE24AFEA3CE58EE2A23A /* SwiftMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3D7D10EF2B687812C65CFD46A18C3 /* SwiftMessages-dummy.m */; };
+		C577B322B52228B272D52FF32B7BE30C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D24C31C1890812997CA6336E0832F4E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		D25B5D763953DF9AAB8E6D2A8C7780D1 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E177267A90DAC085C61C3DDA8749DE /* MessageView.xib */; };
+		D5D1EFA72B7C27281C476AD916C341A7 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E00AFC3E4BA258C5AD5C49BB2CA7E /* UIViewController+Utils.swift */; };
+		D95335EFA61EF8AEC7FED8D0B954295B /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C34BAB67C991F1B032F9418B8A1D01 /* WindowViewController.swift */; };
+		F9518A7779C25F9B63FDF776D4CFDBE1 /* MessageViewIOS8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6CB6F219037649BCCB7F5B2AFB0E88 /* MessageViewIOS8.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07307B6FDAAD7766ADBF734495709A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D386C75EFD4F03725E4EFB866B600B9A;
+			remoteInfo = DZNEmptyDataSet;
+		};
+		31A2339DFC607850416AF4DA768DB03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9AA57FC2137AFE46930BD6D9B7A5C09;
+			remoteInfo = SwiftMessages;
+		};
+		3D4FB179E8903694145914670BCDB609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F47A9B6BEC3FCCDFFD93F7723DB4E14;
+			remoteInfo = "SwiftMessages-SwiftMessages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01293FA0F1FDD66E0B4B09B667363A77 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZNEmptyDataSet.framework; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D0F1727AEB356D403C8443F57EC9C7 /* NSBundle+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+Utils.swift"; path = "SwiftMessages/NSBundle+Utils.swift"; sourceTree = "<group>"; };
+		12E942EFAEDBC43D8C77947614504E52 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = SwiftMessages/Theme.swift; sourceTree = "<group>"; };
+		142677AF1BF61E1610CFC957D3C56C9E /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = SwiftMessages/Identifiable.swift; sourceTree = "<group>"; };
+		222E1D3E82E56C947BA9752143F91A40 /* DZNEmptyDataSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-umbrella.h"; sourceTree = "<group>"; };
+		2CBFCEFA474B720D6F5C71DC8A34A70D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwiftMessages/Resources/Images.xcassets; sourceTree = "<group>"; };
+		2CC3D7D10EF2B687812C65CFD46A18C3 /* SwiftMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMessages-dummy.m"; sourceTree = "<group>"; };
+		2EDC0DBAA6A0ECCD491BC1B0AF48885C /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		3241EDEF073C873BD67419EF56D400FE /* TabView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabView.xib; path = SwiftMessages/Resources/TabView.xib; sourceTree = "<group>"; };
+		354B6EAE361B294B6E0F13DDDFE51DF0 /* Pods-tictactoe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tictactoe-umbrella.h"; sourceTree = "<group>"; };
+		377E632142A0AB11AF8BAA7AFD576FB1 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMessages.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1F1690E2D9180AA71A906334F18FFA /* SwiftMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.xcconfig; sourceTree = "<group>"; };
+		4019DADB7B8DE953C89ABF1886B18D8F /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "SwiftMessages/Array+Utils.swift"; sourceTree = "<group>"; };
+		44D53FB07AF20A844DAF5A2DAF217B3C /* MessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = SwiftMessages/MessageView.swift; sourceTree = "<group>"; };
+		45692090C77AE2235201E96B61E339F1 /* StatusLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StatusLine.xib; path = SwiftMessages/Resources/StatusLine.xib; sourceTree = "<group>"; };
+		45E177267A90DAC085C61C3DDA8749DE /* MessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageView.xib; path = SwiftMessages/Resources/MessageView.xib; sourceTree = "<group>"; };
+		4B7E0C05B701CB78CE5F565D1E1559EA /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftMessages/PassthroughView.swift; sourceTree = "<group>"; };
+		53740A9B36BBFE55A5A2A747514C265C /* Pods-tictactoe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-tictactoe.modulemap"; sourceTree = "<group>"; };
+		5508FF0BAB1652DC22713EC33131D1C6 /* ResourceBundle-SwiftMessages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftMessages-Info.plist"; sourceTree = "<group>"; };
+		647EADF4842E5E1CBD16DCC8FD0B0173 /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
+		64C34BAB67C991F1B032F9418B8A1D01 /* WindowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowViewController.swift; path = SwiftMessages/WindowViewController.swift; sourceTree = "<group>"; };
+		6A1AA393F49C7745D04E1DD1F722F69E /* CardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CardView.xib; path = SwiftMessages/Resources/CardView.xib; sourceTree = "<group>"; };
+		6B6CB6F219037649BCCB7F5B2AFB0E88 /* MessageViewIOS8.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageViewIOS8.xib; path = SwiftMessages/Resources/MessageViewIOS8.xib; sourceTree = "<group>"; };
+		6CD3BA3362B890200102B51572DA322E /* SwiftMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessages.swift; path = SwiftMessages/SwiftMessages.swift; sourceTree = "<group>"; };
+		6EC3CA72FDD7CBC6CAD7367A67EA94F8 /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		7CEE3723EE7811C0B77456C54B377B9F /* Pods-tictactoe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tictactoe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FD5EA2B7A510C826E5FC7D41A0DC418 /* DZNEmptyDataSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZNEmptyDataSet.modulemap; sourceTree = "<group>"; };
+		855AC83B9A2CE59FBD47F575BBD13B9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872E00AFC3E4BA258C5AD5C49BB2CA7E /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "SwiftMessages/UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		8D49621039C70EAD35B128591FFFD2B5 /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
+		8EC5AA620B58C8620BCFC72ADE8AFCB6 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970C8CD354E8DBD44872B7B9F7544CF7 /* Pods-tictactoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tictactoe.release.xcconfig"; sourceTree = "<group>"; };
+		984615333E2169D4A0F683F82C57E343 /* Pods-tictactoe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tictactoe-resources.sh"; sourceTree = "<group>"; };
+		9C5683C3F17ADCC1AD43475D22AE8DE0 /* Pods_tictactoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tictactoe.framework; path = "Pods-tictactoe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFDA29A5CF7824E7368186A16A99230 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAECA724C89967F934569B93D6CC561D /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftMessages.bundle; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1E368F281A4CE53234DDDD65752F93 /* PassthroughWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughWindow.swift; path = SwiftMessages/PassthroughWindow.swift; sourceTree = "<group>"; };
+		BE1B0A96F6F290DC8B1FAD70AB75AA1E /* SwiftMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-umbrella.h"; sourceTree = "<group>"; };
+		C3D60A7CAB1F251C2051720A23B20AF6 /* BackgroundViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundViewable.swift; path = SwiftMessages/BackgroundViewable.swift; sourceTree = "<group>"; };
+		C6EF23DE510E43BC5D7715A69C8B1267 /* Pods-tictactoe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tictactoe-dummy.m"; sourceTree = "<group>"; };
+		CA1DB39CCD79D4B3B5E7E797E94F1814 /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = SwiftMessages/Presenter.swift; sourceTree = "<group>"; };
+		D06BD03D54362682543A1826DBD49D9B /* Pods-tictactoe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tictactoe-frameworks.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E55FED8B61BB9B3EF1E6573A0507B3AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5CD4468C45A3AC1A9E391DCC71FBA3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF926DA9AD1A605B199328719A221B7 /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = SwiftMessages/BaseView.swift; sourceTree = "<group>"; };
+		F493ED0F367CF193CCF4F8984524127D /* SwiftMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-prefix.pch"; sourceTree = "<group>"; };
+		F60A0E8A9DD7D31551A68626B96E3E10 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		F76E7EA583BC30915AE1C01ECF04B8F7 /* Pods-tictactoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tictactoe.debug.xcconfig"; sourceTree = "<group>"; };
+		F993096C2CFB904A34479B307268AB1F /* Pods-tictactoe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tictactoe-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF2B6DCC3BB04FB6F6217D4346F7B37F /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = SwiftMessages/Error.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065DB50068A3D983B1F89F8E54F44558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDDE25E2F937DD4A26DDD3D8042963A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E0885EF9D269547F22DB9E026FB793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C577B322B52228B272D52FF32B7BE30C /* Foundation.framework in Frameworks */,
+				8E31EF89BD192C6AACDE9E0655861D3D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40BB61212958F33BE4FAF389A48C9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F22718C91889DE71572FCB4ED845ADE /* Foundation.framework in Frameworks */,
+				D24C31C1890812997CA6336E0832F4E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5ABAE530F8281FB3BA564834FAE6E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E776645CD36DBE123C6C776ADC6F4C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A1AA393F49C7745D04E1DD1F722F69E /* CardView.xib */,
+				2CBFCEFA474B720D6F5C71DC8A34A70D /* Images.xcassets */,
+				45E177267A90DAC085C61C3DDA8749DE /* MessageView.xib */,
+				6B6CB6F219037649BCCB7F5B2AFB0E88 /* MessageViewIOS8.xib */,
+				45692090C77AE2235201E96B61E339F1 /* StatusLine.xib */,
+				3241EDEF073C873BD67419EF56D400FE /* TabView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		16C89574D664C40D8E5AB97AD4F2DB52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				855AC83B9A2CE59FBD47F575BBD13B9B /* Info.plist */,
+				5508FF0BAB1652DC22713EC33131D1C6 /* ResourceBundle-SwiftMessages-Info.plist */,
+				8D49621039C70EAD35B128591FFFD2B5 /* SwiftMessages.modulemap */,
+				3A1F1690E2D9180AA71A906334F18FFA /* SwiftMessages.xcconfig */,
+				2CC3D7D10EF2B687812C65CFD46A18C3 /* SwiftMessages-dummy.m */,
+				F493ED0F367CF193CCF4F8984524127D /* SwiftMessages-prefix.pch */,
+				BE1B0A96F6F290DC8B1FAD70AB75AA1E /* SwiftMessages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMessages";
+			sourceTree = "<group>";
+		};
+		1A980934FD90E8B830A061F2629096CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B81398947767CAEC763DAA5335C04580 /* Pods-tictactoe */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		293F837BCA172A8AE908CA0AB73F55C8 /* SwiftMessages */ = {
+			isa = PBXGroup;
+			children = (
+				4019DADB7B8DE953C89ABF1886B18D8F /* Array+Utils.swift */,
+				C3D60A7CAB1F251C2051720A23B20AF6 /* BackgroundViewable.swift */,
+				ECF926DA9AD1A605B199328719A221B7 /* BaseView.swift */,
+				FF2B6DCC3BB04FB6F6217D4346F7B37F /* Error.swift */,
+				142677AF1BF61E1610CFC957D3C56C9E /* Identifiable.swift */,
+				647EADF4842E5E1CBD16DCC8FD0B0173 /* MarginAdjustable.swift */,
+				44D53FB07AF20A844DAF5A2DAF217B3C /* MessageView.swift */,
+				05D0F1727AEB356D403C8443F57EC9C7 /* NSBundle+Utils.swift */,
+				4B7E0C05B701CB78CE5F565D1E1559EA /* PassthroughView.swift */,
+				BB1E368F281A4CE53234DDDD65752F93 /* PassthroughWindow.swift */,
+				CA1DB39CCD79D4B3B5E7E797E94F1814 /* Presenter.swift */,
+				6CD3BA3362B890200102B51572DA322E /* SwiftMessages.swift */,
+				12E942EFAEDBC43D8C77947614504E52 /* Theme.swift */,
+				872E00AFC3E4BA258C5AD5C49BB2CA7E /* UIViewController+Utils.swift */,
+				64C34BAB67C991F1B032F9418B8A1D01 /* WindowViewController.swift */,
+				0E776645CD36DBE123C6C776ADC6F4C4 /* Resources */,
+				16C89574D664C40D8E5AB97AD4F2DB52 /* Support Files */,
+			);
+			name = SwiftMessages;
+			path = SwiftMessages;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FDC461B7CB55BF7B0A2DA6F9361D0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01293FA0F1FDD66E0B4B09B667363A77 /* DZNEmptyDataSet.framework */,
+				9C5683C3F17ADCC1AD43475D22AE8DE0 /* Pods_tictactoe.framework */,
+				BAECA724C89967F934569B93D6CC561D /* SwiftMessages.bundle */,
+				377E632142A0AB11AF8BAA7AFD576FB1 /* SwiftMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FC8EAF62A53CB6F71A6AD194E2F430 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD5EA2B7A510C826E5FC7D41A0DC418 /* DZNEmptyDataSet.modulemap */,
+				2EDC0DBAA6A0ECCD491BC1B0AF48885C /* DZNEmptyDataSet.xcconfig */,
+				8EC5AA620B58C8620BCFC72ADE8AFCB6 /* DZNEmptyDataSet-dummy.m */,
+				6EC3CA72FDD7CBC6CAD7367A67EA94F8 /* DZNEmptyDataSet-prefix.pch */,
+				222E1D3E82E56C947BA9752143F91A40 /* DZNEmptyDataSet-umbrella.h */,
+				E5CD4468C45A3AC1A9E391DCC71FBA3D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9B4B2172DB9A36131EAE32C5092BF76E /* Pods */,
+				4FDC461B7CB55BF7B0A2DA6F9361D0B0 /* Products */,
+				1A980934FD90E8B830A061F2629096CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4B2172DB9A36131EAE32C5092BF76E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E995E19885AB32813AD5A771015A0 /* DZNEmptyDataSet */,
+				293F837BCA172A8AE908CA0AB73F55C8 /* SwiftMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B81398947767CAEC763DAA5335C04580 /* Pods-tictactoe */ = {
+			isa = PBXGroup;
+			children = (
+				E55FED8B61BB9B3EF1E6573A0507B3AE /* Info.plist */,
+				53740A9B36BBFE55A5A2A747514C265C /* Pods-tictactoe.modulemap */,
+				7CEE3723EE7811C0B77456C54B377B9F /* Pods-tictactoe-acknowledgements.markdown */,
+				F993096C2CFB904A34479B307268AB1F /* Pods-tictactoe-acknowledgements.plist */,
+				C6EF23DE510E43BC5D7715A69C8B1267 /* Pods-tictactoe-dummy.m */,
+				D06BD03D54362682543A1826DBD49D9B /* Pods-tictactoe-frameworks.sh */,
+				984615333E2169D4A0F683F82C57E343 /* Pods-tictactoe-resources.sh */,
+				354B6EAE361B294B6E0F13DDDFE51DF0 /* Pods-tictactoe-umbrella.h */,
+				F76E7EA583BC30915AE1C01ECF04B8F7 /* Pods-tictactoe.debug.xcconfig */,
+				970C8CD354E8DBD44872B7B9F7544CF7 /* Pods-tictactoe.release.xcconfig */,
+			);
+			name = "Pods-tictactoe";
+			path = "Target Support Files/Pods-tictactoe";
+			sourceTree = "<group>";
+		};
+		EE3E995E19885AB32813AD5A771015A0 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				F60A0E8A9DD7D31551A68626B96E3E10 /* UIScrollView+EmptyDataSet.h */,
+				AFFDA29A5CF7824E7368186A16A99230 /* UIScrollView+EmptyDataSet.m */,
+				50FC8EAF62A53CB6F71A6AD194E2F430 /* Support Files */,
+			);
+			name = DZNEmptyDataSet;
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DD043A1AE750323ABCA27CBE00C2721 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9330F2C3E8E52D9116BC92C005BF9ED9 /* SwiftMessages-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653FFE72514B935712D0CE1053D47AD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C144355E41C99902528AAD3CF069680 /* DZNEmptyDataSet-umbrella.h in Headers */,
+				8511E9645F5C2B18746B4B4B29284451 /* UIScrollView+EmptyDataSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF9CB9D601A98D3489B8B5007FBBAD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99130CFFA41780900714300D7B535EB9 /* Pods-tictactoe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F47A9B6BEC3FCCDFFD93F7723DB4E14 /* SwiftMessages-SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61194DE935DECACD5FD79D3EEB8D0EC3 /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */;
+			buildPhases = (
+				42993CA1004A4DCCCB248CED8394D57B /* Sources */,
+				C5ABAE530F8281FB3BA564834FAE6E24 /* Frameworks */,
+				7E6165B254B4D7D70091235968F7C522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftMessages-SwiftMessages";
+			productName = "SwiftMessages-SwiftMessages";
+			productReference = BAECA724C89967F934569B93D6CC561D /* SwiftMessages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		95A8B01C8E7EE3793324723BC6BC452D /* Pods-tictactoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4924BE6C50AF85AF941211C29E38205F /* Build configuration list for PBXNativeTarget "Pods-tictactoe" */;
+			buildPhases = (
+				4DE2C2A793A01C8477C7A2628BBDB5CC /* Sources */,
+				065DB50068A3D983B1F89F8E54F44558 /* Frameworks */,
+				FAF9CB9D601A98D3489B8B5007FBBAD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A9859EF9B18D4F05A40410C4F09E3D /* PBXTargetDependency */,
+				4102E160FBCB36E0B04C7D9D9C860F41 /* PBXTargetDependency */,
+			);
+			name = "Pods-tictactoe";
+			productName = "Pods-tictactoe";
+			productReference = 9C5683C3F17ADCC1AD43475D22AE8DE0 /* Pods_tictactoe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D386C75EFD4F03725E4EFB866B600B9A /* DZNEmptyDataSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2CBCE24382919CB3DBFC8BB3CC6503 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */;
+			buildPhases = (
+				5235DD2B24AFCD194FE2DD74A43760D8 /* Sources */,
+				59E0885EF9D269547F22DB9E026FB793 /* Frameworks */,
+				653FFE72514B935712D0CE1053D47AD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZNEmptyDataSet;
+			productName = DZNEmptyDataSet;
+			productReference = 01293FA0F1FDD66E0B4B09B667363A77 /* DZNEmptyDataSet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9AA57FC2137AFE46930BD6D9B7A5C09 /* SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BF2F2B05E6C7744E7C5EC70D4E67C0 /* Build configuration list for PBXNativeTarget "SwiftMessages" */;
+			buildPhases = (
+				1F27F8FB284ED9E2B4C67526B5E2514A /* Sources */,
+				A40BB61212958F33BE4FAF389A48C9A2 /* Frameworks */,
+				7BBA94EB11E2AEBECA524EE5487E37B8 /* Resources */,
+				3DD043A1AE750323ABCA27CBE00C2721 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCB8090CF9529B305C5C9C3B48CB9DF /* PBXTargetDependency */,
+			);
+			name = SwiftMessages;
+			productName = SwiftMessages;
+			productReference = 377E632142A0AB11AF8BAA7AFD576FB1 /* SwiftMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4FDC461B7CB55BF7B0A2DA6F9361D0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D386C75EFD4F03725E4EFB866B600B9A /* DZNEmptyDataSet */,
+				95A8B01C8E7EE3793324723BC6BC452D /* Pods-tictactoe */,
+				E9AA57FC2137AFE46930BD6D9B7A5C09 /* SwiftMessages */,
+				1F47A9B6BEC3FCCDFFD93F7723DB4E14 /* SwiftMessages-SwiftMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BBA94EB11E2AEBECA524EE5487E37B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB46C10C218E6EBAB080E16C1099DE /* SwiftMessages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6165B254B4D7D70091235968F7C522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6760D9E8189E5D7A205E89341E0DAAB3 /* CardView.xib in Resources */,
+				6D52B76ED9CDFB9D8DA98171CD5D399B /* Images.xcassets in Resources */,
+				D25B5D763953DF9AAB8E6D2A8C7780D1 /* MessageView.xib in Resources */,
+				F9518A7779C25F9B63FDF776D4CFDBE1 /* MessageViewIOS8.xib in Resources */,
+				49BAA43E3FAE1605F20BB34C8BDAE2D4 /* StatusLine.xib in Resources */,
+				1485AE1A4C011F4D5C3F1FF7D26FF223 /* TabView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F27F8FB284ED9E2B4C67526B5E2514A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C35CC7EAD8E4BA37484B154206FF73F /* Array+Utils.swift in Sources */,
+				99913B56BC41C4F08C4468AEB2A433A5 /* BackgroundViewable.swift in Sources */,
+				6E65013C20A8396B5B4B48857860F488 /* BaseView.swift in Sources */,
+				3995BE43D081691574FBC93D78F17689 /* Error.swift in Sources */,
+				7360D134B549216E73E744C3787E2B8C /* Identifiable.swift in Sources */,
+				49D89DF8111FE28F464DD5E18C904C58 /* MarginAdjustable.swift in Sources */,
+				7ADDD1AA0CBB03A2524A98A098A7AA6B /* MessageView.swift in Sources */,
+				463F7B0FC728DAF015D0FBE65A1C5318 /* NSBundle+Utils.swift in Sources */,
+				BED8147944F6866BE35D36B09BD28AF6 /* PassthroughView.swift in Sources */,
+				1DFD8DED7F886C2EEC7FFD1D7BAC8D52 /* PassthroughWindow.swift in Sources */,
+				42A4BD90D2E95439408F72B574CB73C9 /* Presenter.swift in Sources */,
+				BF64D9497707AE24AFEA3CE58EE2A23A /* SwiftMessages-dummy.m in Sources */,
+				14FF49A8C8E31C2FD9209D197A242435 /* SwiftMessages.swift in Sources */,
+				1C67618B212FBDA8BFC8C5E0C7958E25 /* Theme.swift in Sources */,
+				D5D1EFA72B7C27281C476AD916C341A7 /* UIViewController+Utils.swift in Sources */,
+				D95335EFA61EF8AEC7FED8D0B954295B /* WindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42993CA1004A4DCCCB248CED8394D57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE2C2A793A01C8477C7A2628BBDB5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6D0563076356604081680E826E3BED /* Pods-tictactoe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235DD2B24AFCD194FE2DD74A43760D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D0A461B8CF202F41C55CA1E732124C /* DZNEmptyDataSet-dummy.m in Sources */,
+				4568C6CC7F78399CA1312B20E26EA8FE /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4102E160FBCB36E0B04C7D9D9C860F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = E9AA57FC2137AFE46930BD6D9B7A5C09 /* SwiftMessages */;
+			targetProxy = 31A2339DFC607850416AF4DA768DB03E /* PBXContainerItemProxy */;
+		};
+		AFCB8090CF9529B305C5C9C3B48CB9DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftMessages-SwiftMessages";
+			target = 1F47A9B6BEC3FCCDFFD93F7723DB4E14 /* SwiftMessages-SwiftMessages */;
+			targetProxy = 3D4FB179E8903694145914670BCDB609 /* PBXContainerItemProxy */;
+		};
+		B6A9859EF9B18D4F05A40410C4F09E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZNEmptyDataSet;
+			target = D386C75EFD4F03725E4EFB866B600B9A /* DZNEmptyDataSet */;
+			targetProxy = 07307B6FDAAD7766ADBF734495709A8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F8BE83A8B35D86BB3B6D65475098768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1F1690E2D9180AA71A906334F18FFA /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		363B5D20EE294CFC597D399FA2088BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970C8CD354E8DBD44872B7B9F7544CF7 /* Pods-tictactoe.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tictactoe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tictactoe/Pods-tictactoe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tictactoe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		533E9C920A3BED26609A99761A13C302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDC0DBAA6A0ECCD491BC1B0AF48885C /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4C467EEBF967639B18B67FB632CEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76E7EA583BC30915AE1C01ECF04B8F7 /* Pods-tictactoe.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tictactoe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tictactoe/Pods-tictactoe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tictactoe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FF9849752B8C01C01DDE90E6AD34500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1F1690E2D9180AA71A906334F18FFA /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A1E1C09A586F96407F5B317084E31881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1F1690E2D9180AA71A906334F18FFA /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7CDAECA6EAE22893B9A4B168A12C2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1F1690E2D9180AA71A906334F18FFA /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F862CD7AF32DFBC7E5E14920CEE1F532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDC0DBAA6A0ECCD491BC1B0AF48885C /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4924BE6C50AF85AF941211C29E38205F /* Build configuration list for PBXNativeTarget "Pods-tictactoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4C467EEBF967639B18B67FB632CEE5 /* Debug */,
+				363B5D20EE294CFC597D399FA2088BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61194DE935DECACD5FD79D3EEB8D0EC3 /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF9849752B8C01C01DDE90E6AD34500 /* Debug */,
+				B7CDAECA6EAE22893B9A4B168A12C2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BF2F2B05E6C7744E7C5EC70D4E67C0 /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8BE83A8B35D86BB3B6D65475098768 /* Debug */,
+				A1E1C09A586F96407F5B317084E31881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2CBCE24382919CB3DBFC8BB3CC6503 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862CD7AF32DFBC7E5E14920CEE1F532 /* Debug */,
+				533E9C920A3BED26609A99761A13C302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

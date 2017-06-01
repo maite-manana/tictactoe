@@ -7,7 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
-class Player: NSManagedObject {
-
+public class Player: NSManagedObject {
+    @NSManaged var name: String?
+    @NSManaged var age: Int16
+    @NSManaged var email: String?
+    
 }
